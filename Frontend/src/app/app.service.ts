@@ -10,7 +10,7 @@ import { Cookie } from 'ng2-cookies/ng2-cookies';
 
 @Injectable()
 export class AppService {
-  private baseUrl = "http://localhost:3000/api/v1";
+  private baseUrl = "http://groupchatapp.webdeveloperjourney.xyz/api/v1";
   constructor(public http: HttpClient) { }
 
   //Method to signup functionality
